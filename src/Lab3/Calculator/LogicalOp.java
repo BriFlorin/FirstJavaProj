@@ -47,6 +47,71 @@ public class LogicalOp {
         return "";
     }
 
+    public void printNumber(int n) {
+        switch (n) {
+            case 1:
+                System.out.println("The number is:  1 !");
+                break;
+            case 2:
+                System.out.println("The number is:  2 !");
+                break;
+            case 3:
+                System.out.println("The number is:  3 !");
+                break;
+            case 4:
+                System.out.println("The number is:  4 !");
+                break;
+            case 5:
+                System.out.println("The number is:  5 !");
+                break;
+            case 6:
+                System.out.println("The number is:  6 !");
+                break;
+            case 7:
+                System.out.println("The number is:  7 !");
+                break;
+            case 8:
+                System.out.println("The number is:  8 !");
+                break;
+            case 9:
+                System.out.println("The number is:  9 !");
+                break;
+            default:
+                System.out.println("wrongNumber");
+                break;
+
+        }
+    }
+
+    public boolean isNumberEven(int n) {
+        if (n % 2 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isEligibleToVote(int n) {
+        if (n > 18) {
+            return true;
+        } else {
+            return false;
+        }
+
+
+    }
+
+    public int returnBiggerNumber(int n1, int n2, int n3) {
+        if (n1 > n2 && n1 > n3) {
+            return n1;
+        }else if (n2> n1 && n2> n3){
+            return n2;
+        }else if (n3 > n2 && n3 > n1){
+            return n3;
+        }
+        return 0;
+    }
+
 
 }
 

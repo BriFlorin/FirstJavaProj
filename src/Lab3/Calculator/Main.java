@@ -24,6 +24,12 @@ public class Main {
 
         System.out.println(op.checkAmountOfSnow(5));
         System.out.println(op.comparNumber(55));
+
+        op.printNumber(20);
+        System.out.println(op.isNumberEven(7));
+        System.out.println(op.isEligibleToVote(20));
+        System.out.println(op.returnBiggerNumber(8,18,25));
+
     }
 
 
